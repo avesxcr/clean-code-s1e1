@@ -43,7 +43,7 @@ var createNewTaskElement=function(taskString){
     editButton.innerText="Edit"; //innerText encodes special characters, HTML does not.
     editButton.className="edit__btn";
 
-    deleteButton.className="delete__btn";
+    deleteButton.className="del__btn";
     deleteButtonImg.src='./remove.svg';
     deleteButton.appendChild(deleteButtonImg);
 
@@ -157,7 +157,7 @@ var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
 //select ListItems children
     var checkBox=taskListItem.querySelector("input[type=checkbox]");
     var editButton=taskListItem.querySelector("button.edit__btn");
-    var deleteButton=taskListItem.querySelector("button.delete__btn");
+    var deleteButton=taskListItem.querySelector("button.del__btn");
 
 
     //Bind editTask to edit button.
