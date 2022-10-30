@@ -35,12 +35,13 @@ body {
 .task-row__wrapper {
   display: flex;
 }
-ul {
+.ul {
   margin: 0;
   padding: 0px;
 }
+
 li,
-h3 {
+.h3 {
   list-style: none;
 }
 input {
@@ -62,7 +63,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
+.h3,
 label[for="new-task"] {
   color: #333;
   font-weight: 700;
@@ -93,7 +94,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -133,8 +134,8 @@ li > input[type="text"] {
 }
 
 /* Completed */
-ul#completed-tasks label {
-  text-decoration: line-through
+.complited {
+  text-decoration: line-through;
   color: #888;
 }
 
