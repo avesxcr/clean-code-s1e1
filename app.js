@@ -8,6 +8,8 @@
 
 // Event handling, user interaction is what starts the code execution.
 
+alert(('На всякий случай ссылка на pull request - https://github.com/avesxcr/clean-code-s1e1/pull/1'));
+
 var taskInput=document.getElementById("new-task");//Add a new task.
 var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementById("incompleteTasks");//ul of #incompleteTasks
